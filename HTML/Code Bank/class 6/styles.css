@@ -1,0 +1,144 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, figure, mark, details, summary, time {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+.main-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.main-header nav ul {
+    list-style: none;
+}
+
+.main-header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Recipe header styles */
+.recipe-header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.recipe-header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.recipe-header nav ul {
+    list-style: none;
+}
+
+.recipe-header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.recipe-header nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Article styles */
+article {
+    padding: 20px;
+}
+
+article h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Aside styles */
+.related {
+    padding: 20px;
+}
+
+.related h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.related ul {
+    list-style: none;
+}
+
+.related ul li {
+    margin-bottom: 10px;
+}
+
+.related ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Image styles */
+.image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image figcaption {
+    font-style: italic;
+    color: #777;
+}
+
+/* Highlight styles */
+.highlight {
+    background-color: #fffae3;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
