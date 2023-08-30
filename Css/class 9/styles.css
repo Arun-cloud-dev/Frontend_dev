@@ -1,0 +1,81 @@
+
+        * {
+            font-family: 'Pacifico', cursive;
+        }
+        
+        h1{
+            background-color: black;
+            color: yellow;
+            padding: 20px;
+            text-align: center;
+
+        }
+        .paragraph1 {
+            background-color: rgb(255, 243, 7);
+            border-color: black;
+            border-width: 5px;
+            border-style: solid;
+            padding: 10px;
+            
+        }
+
+        .paragraph2 {
+            color: rgb(0, 0, 0);
+            background-color: rgb(0, 254, 34);
+            border-color: black;
+            border-width: 5px;
+            border-style: solid;
+            padding: 10px;
+        }
+
+        .paragraph3 {
+            color: rgb(0, 0, 0);
+            background-color: rgb(165, 166, 252);
+            border-color: black;
+            border-width: 5px;
+            border-style: solid;
+            padding: 10px;
+        }
+
+        .paragraph4 {
+            color: rgb(0, 0, 0);
+            background-color: rgb(248, 35, 234);
+            border-color: black;
+            border-width: 5px;
+            border-style: solid;
+            padding: 10px;
+        }
+        .container1 {
+            background-color: rgb(0, 0, 0) ;
+            margin-top: 30px;
+            padding-top: 30px;
+            padding-bottom: 550px;
+            padding-left: 50px;
+            padding-right: 50px;
+
+        }
+        .container1 :hover{
+            background-color: rgb(255, 255, 255) ;
+            margin-top: 30px;
+            padding: 50px;
+        }
+
+        .footer {
+            background-color: #000000;
+            color: rgb(229, 225, 225);
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer a:hover {
+            color: #f39c12;
+        }
