@@ -1,0 +1,88 @@
+/* *******footer styles ************* */
+.footer {
+    background-color: #000000;
+    color: hsl(0, 7%, 89%);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 15.5px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 2.5ms;
+}
+
+.footer a:hover {
+    color: #f39c12;
+}
+
+/* ++++++ nav styles +++++++++++ */
+nav {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+
+.nav-h1, .nav-li, .nav-ul {
+    display: inline;
+}
+
+.nav-ul {
+    margin-left: 50%;
+}
+
+.nav-li {
+    padding: 20px;
+}
+
+.nav-li:hover {
+    background-color: #f39c12;
+}
+
+.container1, .nav-h1 {
+    margin-top: 50px;
+}
+
+/* *********h1 styles *************** */
+h1 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    margin-top: 90px;
+}
+/* *****cards ********* */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px; /* Optional: Set the maximum width of the card container */
+    margin: 0 auto; /* Optional: Center the card container on the page */
+    padding: 20px; /* Optional: Add some padding around the card container */
+    background-color: #f39c12;
+}
+
+
+.card {
+    width: calc(25% - 20px); /* Set the width of each card (25% of the container width) */
+    margin: 10px; /* Add margin for spacing between cards */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 15px; /* Optional: Add padding inside the card */
+    text-align: center;
+    background-color: #000000;
+    color: white; /* Optional: Add a background color to the card */
+}
+
+.card img {
+    width: 100%; /* Set the image width to 100% of its container */
+    height: auto; /* Maintain aspect ratio of the image */
+}
+
