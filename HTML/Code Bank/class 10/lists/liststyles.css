@@ -1,0 +1,36 @@
+
+        /* Changing List Styles */
+        ul {
+            list-style-type: square;
+        }
+
+        ol {
+            list-style-type: upper-roman;
+        }
+
+        /* Custom List Images */
+        ul.custom-bullet {
+            list-style-image: url('bullet.png');
+        }
+
+        /* Adjusting List Item Indentation */
+        li.indent {
+            margin-left: 20px;
+        }
+
+        /* Changing List Item Marker Position */
+        ul.marker-inside {
+            list-style-position: inside;
+        }
+
+        /* Styling Nested Lists */
+        ul.nested {
+            margin-left: 30px;
+        }
+
+        /* Adding Background or Border */
+        li.highlight {
+            background-color: #f2f2f2;
+            border: 1px solid #ddd;
+            padding: 5px;
+        }

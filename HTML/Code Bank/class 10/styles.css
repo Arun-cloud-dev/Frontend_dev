@@ -1,0 +1,112 @@
+        * {
+            font-family: 'Pacifico', cursive;
+        }
+        
+        h1{
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            text-align: center;
+
+        }
+        .paragraph1 {
+            background-color: rgb(248, 240, 4);
+            border-color: black;
+            border-width: 5px;
+            border-style: solid;
+            padding: 10px;
+            text-align: center;
+            
+        }
+
+        .paragraph2 {
+            color: rgb(0, 0, 0);
+            background-color: rgb(0, 254, 34);
+            border-color: black;
+            border-width: 5px;
+            border-style: solid;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .paragraph3 {
+            color: rgb(0, 0, 0);
+            background-color: rgb(165, 166, 252);
+            border-color: black;
+            border-width: 5px;
+            border-style: solid;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .paragraph4 {
+            color: rgb(0, 0, 0);
+            background-color: rgb(248, 35, 234);
+            border-color: black;
+            border-width: 5px;
+            border-style: solid;
+            padding: 10px;
+            text-align: center;
+        }
+        .container1 {
+            background-color: rgb(0, 0, 0) ;
+            margin-top: 30px;
+            padding-top: 30px;
+            padding-bottom: 550px;
+            padding-left: 50px;
+            padding-right: 50px;
+
+        }
+        .container1 :hover{
+            background-color: rgb(255, 255, 255) ;
+            margin-top: 30px;
+            padding: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+        
+            
+        }
+
+        .footer {
+            background-color: #000000;
+            color: rgb(229, 225, 225);
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 7.5px;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+            transition: color 2.5ms;
+        }
+
+        .footer a:hover {
+            color: #f39c12;
+        }
+
+
+
+
+nav { 
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+
+}
+
+.nav-h1,.nav-li,.nav-ul{
+    display: inline;
+}
+
+.nav-ul{
+    margin-left: 30%;
+}
+
+.nav-li{
+    padding: 20px;
+}
+
+
