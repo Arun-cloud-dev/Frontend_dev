@@ -1,0 +1,18 @@
+/* Styles for the custom alert dialog */
+.hidden {
+  display: none;
+}
+
+.modal {
+  background-color: rgb(243, 109, 109);
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  padding: 5px 10px;
+}
