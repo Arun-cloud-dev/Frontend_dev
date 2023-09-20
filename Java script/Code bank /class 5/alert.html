@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Size Checker</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        input[type="number"] {
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #result {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Font Value input alert!</h1>
+    <p>Enter a number and click the button to check the font size: Use value less than 25</p>
+    <input type="number" id="fontSizeInput" title="none">
+    <button onclick="checkFontSize()">Check Font Size</button>
+    <p id="result"></p>-
+
+    <script>
+        function checkFontSize() {
+            const num = (document.getElementById('fontSizeInput').value);
+            const resultElement = document.getElementById('result');
+
+            if (num < 5) {
+                resultElement.textContent = "Tiny";
+            } else if (num < 10) {
+                resultElement.textContent = "Small";
+            } else if (num < 15) {
+                resultElement.textContent = "Medium";
+            } else if (num < 20) {
+                resultElement.textContent = "Large";
+            } else if (num < 25) {
+                resultElement.textContent = "Huge";
+            } else {
+                alert("Font Size should be less than 25");
+            }
+        }
+    </script>
+</body>
+
+</html>
+
+
+
+
+<!-- Switch statements  --> 
+<!-- selecting from many opions  -->
