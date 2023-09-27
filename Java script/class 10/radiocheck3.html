@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <body>
+        <h3>Using the <i>checked property</i> of the radio button to check whether a radio button is selected</h3>
+        <input type="radio" name="radio" value="10" id="radio1"> 10 </input> <br>
+        <input type="radio" name="radio" value="20" id="radio2"> 20 </input> <br>
+        <input type="radio" name="radio" value="50" id="radio3"> 30 </input>
+        <p id="output"> </p>
+        <button onclick="getSelectedRadio()"> Check radio </button>
+        <script>
+            let output = document.getElementById("output");
+            function getSelectedRadio() {
+                let radioButtons = document.getElementsByName('radio');
+                for (let radio of radioButtons) {
+                    if (radio.checked) {
+                        output.innerText = "The radio button is selected and it's value is " + radio.value;
+                    }
+                }
+            }
+        </script>
+    </body>
+
+</body>
+</html>
